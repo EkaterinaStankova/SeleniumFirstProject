@@ -27,14 +27,14 @@ import java.util.concurrent.TimeUnit;
 
 
         //Элементы корзины
-        By commentInCard= By.xpath("//textarea[@data-qa-node='comment']");
+        By commentInCard= By.xpath("//div[@data-qa-node='comment']");
         By payerCard = By.xpath("//span[@data-qa-node='payer-card']");
         By payerAmount = By.xpath("//div[@data-qa-node='payer-amount']");
         By payerComission = By.xpath("//div[@data-qa-node='payer-currency']");
         By receiverName = By.xpath("//div[@data-qa-node='receiver-name']");
         By receiverCard = By.xpath("//span[@data-qa-node='receiver-card']");
-        By receiverAmount = By.xpath("//span[@data-qa-node='receiver-amount']");
-        By receiverComission = By.xpath("//span[@data-qa-node='receiver-currency']");
+        By receiverAmount = By.xpath("//div[@data-qa-node='receiver-amount']");
+        By receiverComission = By.xpath("//div[@data-qa-node='receiver-currency']");
         By totalAmount = By.xpath("//div[@data-qa-node='total']");
 
         // 3.Написание тестов
