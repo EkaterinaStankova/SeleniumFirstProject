@@ -49,7 +49,6 @@ import java.util.concurrent.TimeUnit;
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
             // 2. Действия с элементами
-            // Описание вспомогательных методов по работе с элементами
 
             driver.get("https://next.privat24.ua/money-transfer/card");
             driver.findElement(fromCard).sendKeys("4552331448138217");
