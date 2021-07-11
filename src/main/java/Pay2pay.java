@@ -40,6 +40,7 @@ import java.util.concurrent.TimeUnit;
         // 3.Написание тестов
         @Test
         public void checkMinPaymentSum() throws InterruptedException {
+
             //1.Создаем системную переменную
             //Создаем образ драйвера
             //Указываем ожидание элементов
